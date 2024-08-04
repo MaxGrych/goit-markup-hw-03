@@ -239,20 +239,22 @@ header .container {
 }
 
 .images .container-image-items {
-  padding: 0;
-  padding-bottom: 32px;
-  border-radius: 0 0 4px 4px;
+  padding: 32px 0;
   flex-basis: calc((100% - 72px) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+
+  border-radius: 0px 0px 4px 4px;
 }
 
 .images-item {
   background: #fff;
+  display: block;
+  align-items: center;
+  text-align: center;
 }
 
 .images-title {
-  margin-top: 32px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -299,6 +301,7 @@ header .container {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .portfolio-title {
@@ -307,9 +310,7 @@ header .container {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -317,8 +318,6 @@ header .container {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 16px;
-  padding-bottom: 32px;
 }
 
 /* #endregion section 3 */
