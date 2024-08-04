@@ -15,20 +15,6 @@ p {
   margin-top: 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 ul {
   list-style-type: none;
   margin-top: 0;
@@ -67,7 +53,7 @@ img {
 /* #region header */
 
 header {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 header .container {
@@ -185,6 +171,20 @@ header .container {
 
 /* #region section 1 */
 
+.container .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .desc {
   display: flex;
   gap: 24px;
@@ -201,7 +201,7 @@ header .container {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .desc-item-text {
   font-weight: 400;
@@ -322,9 +322,10 @@ header .container {
   padding-bottom: 100px;
 }
 
-.container .logo {
-  display: block;
-  padding-bottom: 16px;
+.container .logo-footer {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer-span {
@@ -345,7 +346,3 @@ header .container {
   max-width: 264px;
 }
 /* #endregion footer */
-
-a {
-  padding: 0;
-}
