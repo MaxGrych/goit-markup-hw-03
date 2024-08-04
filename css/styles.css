@@ -278,8 +278,9 @@ header .container {
   margin-bottom: 72px;
 }
 
-.section-portfolio-page .portfolio {
+.portfolio {
   display: flex;
+  gap: 48px 24px;
   flex-wrap: wrap;
 }
 
