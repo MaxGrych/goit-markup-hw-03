@@ -34,10 +34,6 @@ button {
   cursor: pointer;
 }
 
-img {
-  display: block;
-}
-
 .container {
   max-width: 1158px;
   padding-left: 15px;
@@ -238,10 +234,15 @@ header .container {
   gap: 24px;
 }
 
-.images-item {
+.images .container-image-items {
   flex-basis: calc((100% - 72px) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+}
+
+.images-item {
   background: #fff;
 }
 
@@ -261,7 +262,6 @@ header .container {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 32px;
 }
 
 /* #endregion section 2 */
