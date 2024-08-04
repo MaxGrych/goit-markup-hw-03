@@ -84,6 +84,7 @@ header .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
   margin-right: 76px;
 }
 .logo-header-span {
@@ -92,15 +93,11 @@ header .container {
 
 .container .nav {
   display: flex;
+  justify-content: row;
   align-items: center;
 }
 
 .container .menu {
-  display: flex;
-  gap: 40px;
-}
-
-.container .contact {
   display: flex;
   gap: 40px;
 }
@@ -115,6 +112,11 @@ header .container {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.container .contact {
+  display: flex;
+  gap: 40px;
 }
 
 .menu-link:hover,
@@ -343,3 +345,7 @@ header .container {
   max-width: 264px;
 }
 /* #endregion footer */
+
+a {
+  padding: 0;
+}
